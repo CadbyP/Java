@@ -90,7 +90,7 @@ class Hashing {
     }
 }
 
-class Main {
+class Assignment1 {
     public static void main(String[] args) {
         Hashing H = new Hashing();
         int ch;
