@@ -87,16 +87,7 @@ public class ThreadedBinaryTree {
             preorder(node.right);
         }
     }
-
-    // Function to find the leftmost node in a subtree
-    Threaded leftMost(Threaded node) {
-        if (node == null)
-            return null;
-        while (node.left != null)
-            node = node.left;
-        return node;
-    }
-
+    
     public static void main(String[] args) {
         ThreadedBinaryTree tree = new ThreadedBinaryTree();
         Scanner scanner = new Scanner(System.in);
